@@ -2,8 +2,7 @@
 header{
     background-size: cover;
     background-attachment: fixed;
-    background-image: url("portadabg.png");
-    background-image: url("portadabg.png"),linear-gradient(rgba(0, 0, 255, 0.5),  rgba(255, 251, 6, 0.5));
+    background-image: linear-gradient(rgba(19, 19, 141, 0.5),  rgb(255, 251, 6));
     
 }
 
@@ -16,11 +15,6 @@ header{
 a.nav-link.active {
     color: black;
 }
-
-ul.nav.justify-content-end {
-    background-color: white;
-}
-
 
 .header {
     height:600px;
@@ -51,13 +45,13 @@ ul.nav.justify-content-end {
     color: rgb(62, 62, 187);
 }
 
-.nosotros {
+.servicios {
     height:540px;
     width:100%;
     text-align: justify;
 }
 
-.nosotros #titulo-nosotros{
+.nosotros #titulo-servicios{
     height: 50px;
     width:100%;
     text-align: center;
@@ -68,25 +62,7 @@ ul.nav.justify-content-end {
     align-items: center;
 }
 
-.contacto {
-    width: 100%;
-    text-align: justify;
-    height: 620px;
-}
 
-.contacto #titulo-contacto {
-    height: 50px;
-    width: 100%;
-    text-align: center;
-    padding: 68px;
-    height: 40px;
-}
-
-.contacto #cuadro-contacto{
- 
-    text-align: center;
-    align-items: center;
-}
 
 .row #informacion{
     
@@ -94,8 +70,10 @@ ul.nav.justify-content-end {
     align-items: center;
 }
 
-h3, h5 {
-    color: rgb(5, 5, 119);   
+h5,h4,h3,h2,h1 {
+    color: rgb(5, 5, 119);
+    align-self: center;
+
 }
 
 img {
@@ -117,13 +95,9 @@ margin-top: 28px;
 margin-bottom: 45px;
 padding: 24px;
 text-align: justify;
+font-size: larger;
 }
 
-a {
-
-color: rgb(0, 0, 0);
-
-}
 
 p#cuadro-servicios {
     color: blue;
@@ -132,12 +106,7 @@ p#cuadro-servicios {
     font-weight:bold; 
 }
 
-div#cuadro-contacto {
-    margin: 0px;
-    padding: 35px;
-}
-
-footer{
+#footer{
 
     margin-top: 50px;
     margin-bottom: 50px;
@@ -145,14 +114,47 @@ footer{
     
     }
     
-    footer #direccion{
-    
-        margin: 5px;   
-        padding: 5px;
-        background:#cec8c8;
-        height: 170px;
+.nav-item{
+
+font-size: large;
+color: rgb(24, 24, 138);
+
+}
+
+a {
+
+    color: rgb(0, 0, 0);
     
     }
-   footer .col-3 {
-        padding: 19px;
+
+    .feature-icon-small {
+        width: 3rem;
+        height: 3rem;
     }
+
+#quienes-somos{
+
+text-align: center;
+
+}
+
+.py-5 {
+    padding-top: 0rem!important;
+    padding-bottom: 2rem!important;
+}
+
+#custom-cards{
+    text-align: center;
+}
+
+
+
+.separador{
+height: 400px;
+}
+
+#floatingmsg{
+
+    height: 200px;
+}
+
