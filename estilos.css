@@ -2,7 +2,7 @@
 header{
     background-size: cover;
     background-attachment: fixed;
-    background-image: linear-gradient(rgba(19, 19, 141, 0.5),  rgb(255, 251, 6));
+    background-image: linear-gradient(rgba(2,2,159,255), rgba(255,201,14,255));
     
 }
 
@@ -43,12 +43,6 @@ a.nav-link.active {
     align-content: center;
     bottom: 46px;
     color: rgb(62, 62, 187);
-}
-
-.servicios {
-    height:540px;
-    width:100%;
-    text-align: justify;
 }
 
 .nosotros #titulo-servicios{
@@ -118,6 +112,8 @@ p#cuadro-servicios {
 
 font-size: large;
 color: rgb(24, 24, 138);
+font-weight: bold;
+
 
 }
 
@@ -158,3 +154,10 @@ height: 400px;
     height: 200px;
 }
 
+.texto-carousel {
+
+color: aliceblue;
+text-shadow: 1px;
+font-size: 6ch;
+
+}

@@ -25,13 +25,11 @@
         <a class="nav-link active" aria-current="page" href="#servicios">Servicios</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="#contacto">Contactenos</a>
+        <a class="nav-link active" href="#contactenos">Contactenos</a>
       </li>
+    
       <li class="nav-item">
-        <a class="nav-link active" href="login.html">Login</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active"  href="signin.html">Sign in</a>
+        <a class="nav-link active"  href="suscripcion.html">Suscribete</a>
       </li>
     </ul>
   </div>
@@ -47,21 +45,21 @@
       <div class="carousel-item active">
         <img src="slide01.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h1>Migracion de datos en nuevas plataformas</h1>
+          <h1 class="texto-carousel">Migracion de datos en nuevas plataformas</h1>
           
         </div>
       </div>
       <div class="carousel-item">
-        <img src="slide02.jpg" class="d-block w-100" alt="...">
+        <img src="slide01.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          
-         
+          <h1 class="texto-carousel">Migracion de datos en nuevas plataformas</h1>
         </div>
       </div>
+
       <div class="carousel-item">
-        <img src="slide03.jpg" class="d-block w-100" alt="...">
+        <img src="slide01.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h1>Automatizacion de tareas rutinarias</h1>
+          <h1 class="texto-carousel">Automatizacion de tareas rutinarias</h1>
           
         </div>
       </div>
@@ -85,23 +83,19 @@
 
 <div class="about">
 
-  <div class="container px-1 py-5">
+  <div class="container px-1 py-1">
   <h1 id="quienes-somos">¿Quienes somos?</h1>
-  <p class="text-muted">Somos una empresa digital que ayuda a las organizaciones a potencializarse con sus clientes,
-     a través del desarrollo de software y la automatizacion, gestionada con las mejores herramientas tecnologicas, un personal tecnico especializado trabajando con base a las metodologias agiles para lograr prestarles el servicio oportuno.</p>
+  <p class="text-muted">Somos una empresa digital dedicada a potenciar el vínculo entre las organizaciones y sus clientes mediante el desarrollo de software y la automatización. Nuestro enfoque se basa en la utilización de las mejores herramientas tecnológicas y en contar con un equipo técnico altamente especializado. Trabajamos siguiendo metodologías ágiles, lo que nos permite ofrecer un servicio oportuno y eficiente a nuestros clientes.</p>
   </div>
 
-  <div class="container px-4 py-5" id="custom-cards">
+  <div class="container px-1 py-2" id="custom-cards">
     <h2 class="pb-2 border-bottom" >Nuestros principios</h2>
 
-    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-2">
       <div class="col">
         <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('calidad.png')">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" t>Calidad del servicio</h3>
-            <ul class="d-flex list-unstyled mt-auto">
-
-            </ul>
+            <h3 class="pt-5 mt-5 mb-1 display-6 lh-1 fw-bold" >Calidad del servicio</h3>
           </div>
         </div>
       </div>
@@ -109,9 +103,8 @@
       <div class="col">
         <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('agilismo.png');">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Agilismo</h3>
-            <ul class="d-flex list-unstyled mt-auto">
-            </ul>
+            <h3 class="pt-5 mt-5 mb-1 display-6 lh-1 fw-bold">Agilismo</h3>
+           
           </div>
         </div>
       </div>
@@ -119,9 +112,8 @@
       <div class="col">
         <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('innovacion.png');">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Innovacion</h3>
-            <ul class="d-flex list-unstyled mt-auto">
-            </ul>
+            <h3 class="pt-5 mt-5 mb-1 display-6 lh-1 fw-bold">Innovacion</h3>
+           
           </div>
         </div>
       </div>
@@ -129,8 +121,8 @@
   </div>
 </div>
 
-<div class="servicios" id="servicios">
   <div class="container px-4 py-5" id="hanging-icons">
+    <div class="servicios" id="servicios"></div>
     <h1 class="pb-2 border-bottom text-center">Nuestros servicios</h1>
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
       <div class="col d-flex align-items-start">
@@ -211,36 +203,42 @@
   </div>
 </div>
 
-<div class="separador"></div>
-
-<div class="contactanos">
-  <div class="container col-xl-10 col-xxl-8 px-4 py-5">
-    <div class="row align-items-center g-lg-5 py-5">
+<div class="container px-1 py-3">
+  <div class="contactenos" id="contactenos">
+    <div class="row align-items-center g-lg-5 py-2">
       <div class="col-lg-7 text-center text-lg-start">
-        <h1 class="display-4 fw-bold lh-1 mb-3">CONTACTANOS</h1>
+        <h1 class="display-4 fw-bold lh-1 mb-3">Contacta un asesor</h1>
         <p class="col-lg-10 fs-4">Agende una cita con alguno de nuestros asesores, comporta sus dudas y ampliemos el portafolio de servicios que tenemos para usted.</p>
       </div>
       <div class="col-md-10 mx-auto col-lg-5">
-        <form class="p-4 p-md-5 border rounded-3 bg-light">
+        <form class="p-4 p-md-5 border rounded-4 bg-light">
+
           <div class="form-floating mb-3">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Correo electronico</label>
+            <input type="text" class="form-control" id="InputName" placeholder="Nombre Completo">
+            <label for="InputEmail">Nombre completo</label>
           </div>
+
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="InputEmail" placeholder="name@example.com">
+            <label for="InputEmail">Correo electronico</label>
+          </div>
+
           <div class="form-floatingmsg mb-3">
-            <input type="text" class="form-control" id="floatingmsg" placeholder="mensaje">
-            <label for="floatingPassword"></label>
-          </div>
-          <div class="checkbox mb-3">
+            <input type="text" class="form-control" id="floatingmsg" placeholder="Dejanos tu mensaje">
             
           </div>
-          <button class="w-100 btn btn-lg btn-primary" type="submit">Ingresar</button>
-          <hr class="my-4">
-          <small class="text-muted">Al enviar su mensaje, acepta nuestra politica de tratamiento de datos de acuerdo a la ley 1581 del 2012.</small>
+          <div class="checkbox mb-3">
+            <input type="checkbox">
+            <small class="text-muted">Al enviar su mensaje, está aceptando nuestra politica de tratamiento de datos de acuerdo a la ley 1581 del 2012.</small>          </div>
+          <button class="w-100 btn btn-lg btn-primary" type="submit">Enviar mensaje</button>
+          
+          
         </form>
       </div>
     </div>
-  </div>
+    </div>
 </div>
+
 
 <div class="container">
   <div class="ubicacion">
@@ -262,9 +260,9 @@
   </ul>
  
 
-  <P class="text-center text-muted">Edificio Colmena, Cra. 43A #1a Sur 25, El Poblado, Medellín, Antioquia <br>
-    Celular:3233275155 <br> Correo: desarrollo@sophimatica.co</P>
-    <p class="text-center text-muted">2022 SOPHIMATICA</p>
+  <P class="text-center text-muted">El Poblado, Cra. 43A # 2a Sur 32, Medellín, Antioquia <br>
+    Celular:3233275155 <br> Correo:    servicioalcliente@sophimatica.co</P>
+    <p class="text-center text-muted">2023 SOPHIMATICA</p>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
