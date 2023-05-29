@@ -1,163 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
-header{
-    background-size: cover;
-    background-attachment: fixed;
-    background-image: linear-gradient(rgba(2,2,159,255), rgba(255,201,14,255));
-    
-}
+.nav {
+    font-family:roboto;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    background-color: transparent;
 
-.navegador {
-    height:100%;
-    width:100%;
-    background-color: white;
-}
-
-a.nav-link.active {
-    color: black;
-}
-
-.header {
-    height:600px;
-    width:100%;
+  }
+  
+  .nav * {
+    box-sizing: border-box;
+    transition: all .35s ease;
+  }
+  
+  .nav li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: .5em 1em;
+    padding: 0;
+  }
+  
+  .nav a {
+    padding: .5em .8em;
+    color:#02029f; 
     position: relative;
-    align-items: center;
-    text-align: center;
-}
-
-.wave {
-    height:100px;
-    width:100%;  
-}
-
-.header #texto1-header {
-    width: 100%;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .nav a::before,
+  .nav a::after {
+    content: '';
+    height: 14px;
+    width: 14px;
     position: absolute;
-    align-content: center;
-    bottom: 86px;
-    color: rgb(62, 62, 187);
+    transition: all .35s ease;
+    opacity: 0;
+  }
+  
+  .nav a::before {
+    content: '';
+    right: 0;
+    top: 0;
+    border-top: 3px solid #ffc90e;
+    border-right: 3px solid #02029f;
+    transform: translate(-100%, 50%);
+  }
+  
+  .nav a:after {
+    content: '';
+    left: 0;
+    bottom: 0;
+    border-bottom: 3px solid #02029f;
+    border-left: 3px solid #ffc90e;
+    transform: translate(100%, -50%)
+  }
+  
+  .nav a:hover:before,
+  .nav a:hover:after{
+    transform: translate(0,0);
+    opacity: 1;
+  }
+  
+  .nav a:hover {
+    color: #02029f;
+  }
+
+.carousel-inner{
+height:635px;
 }
 
-.header #texto2-header {
-    width: 100%;
-    position: absolute;
-    align-content: center;
-    bottom: 46px;
-    color: rgb(62, 62, 187);
-}
-
-.nosotros #titulo-servicios{
-    height: 50px;
-    width:100%;
-    text-align: center;
-}
-
-.nosotros #cuadro-nosotros{
-    text-align: center;
-    align-items: center;
-}
-
-
-
-.row #informacion{
-    
-    text-align: center;
-    align-items: center;
-}
-
-h5,h4,h3,h2,h1 {
-    color: rgb(5, 5, 119);
-    align-self: center;
-
-}
-
-img {
-   border-radius: 10px;
-}
-
-#cuadro-nosotros :hover{
-transform: rotate(5deg);
-scale: 1.5;
-transition-duration: 500ms;
-text-align: center;
-padding: 10px;
-margin: 0px;
-}
-
-p{
-text-align: center;
-margin-top: 28px;
-margin-bottom: 45px;
-padding: 24px;
-text-align: justify;
-font-size: larger;
-}
-
-
-p#cuadro-servicios {
-    color: blue;
-    font:unset;
+.container {
+    font-family:roboto;
+  }
+  
+.console-container {
+    font-family:roboto;
+    font-size:4em;
     text-align:center;
-    font-weight:bold; 
-}
+    height:200px;
+    width:600px;
+    display:block;
+    position:absolute;
+    color:white;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+  }
+  .console-underscore {
+     display:inline-block;
+    position:relative;
+    top:-0.14em;
+    left:10px;
+  }
 
-#footer{
-
-    margin-top: 50px;
-    margin-bottom: 50px;
+  h1 , h2{
+    color:#02029f;
     text-align: center;
-    
-    }
-    
-.nav-item{
+  }
+  
 
-font-size: large;
-color: rgb(24, 24, 138);
-font-weight: bold;
-
-
-}
-
-a {
-
-    color: rgb(0, 0, 0);
-    
-    }
-
-    .feature-icon-small {
-        width: 3rem;
-        height: 3rem;
-    }
-
-#quienes-somos{
-
-text-align: center;
-
-}
-
-.py-5 {
-    padding-top: 0rem!important;
-    padding-bottom: 2rem!important;
-}
-
-#custom-cards{
+ #principio01,#principio02,#principio03{
     text-align: center;
-}
+    text-shadow: 3px 6px 3px black; 
+  }
 
+  .btn{
+    background-color:#02029f !important;
+  }
 
-
-.separador{
-height: 400px;
-}
-
-#floatingmsg{
-
-    height: 200px;
-}
-
-.texto-carousel {
-
-color: aliceblue;
-text-shadow: 1px;
-font-size: 6ch;
-
-}
+  .ubicacion{
+margin: 30px;
+    padding: 15px;
+  }
