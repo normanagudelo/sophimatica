@@ -70,7 +70,6 @@
   .container-video{
     position: relative;
     height: 2px;
-    
     }
   
     video{
@@ -78,9 +77,6 @@
       width: 100%;
     }
    
-
-
-
   .console-container {
  
     font-family:roboto;
