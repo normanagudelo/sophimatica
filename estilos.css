@@ -82,10 +82,10 @@
   .console-container {
  
     font-family:roboto;
-    font-size:5em;
+    font-size:3em;
     text-align:center;
-    height:200px;
-    width:600px;
+    height:50px;
+    width:100%;
     display:block;
     position:absolute;
     color:white;
@@ -95,6 +95,7 @@
     right:0;
     margin:auto;
     text-shadow: 3px 6px 3px black; 
+    border-color: rgb(2, 17, 17);
   }
   .console-underscore {
      display:inline-block;
@@ -140,6 +141,7 @@ height: 200px;
   p {
     font-size: 20px;
     color: black !important;
+    text-align: justify;
   }
 
   .texto_servicios{
