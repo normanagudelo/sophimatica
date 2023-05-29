@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SOPHIMATICA</title>
-    <link rel="icon" href="img/ico.png" type="image/x-icon">
+    <link rel="icon" href="./img/ico.png" type="image/x-icon">
     <link rel="stylesheet" href="estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -17,17 +17,17 @@
     <nav class="navbar bg-light">
     <div class="container">
       <a class="navbar-brand">
-        <img src="icono-nav.png" alt="Sophimatica" data-aos="zoom-out" data-aos-duration="2000">
+        <img src="./img/icono-nav.png" alt="Sophimatica" data-aos="zoom-out" data-aos-duration="2000">
       </a>
     <ul class="nav justify-content-end">
       <li class="nav-item">
         <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#servicios">Servicios</a>
+        <a class="nav-link active" aria-current="page" href="#nuestros_servicios">Servicios</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#servicios">Nosotros</a>
+        <a class="nav-link active" aria-current="page" href="#about">Nosotros</a>
       </li>
       <li class="nav-item">
         <a class="nav-link active" href="#contactenos">Contactenos</a>
@@ -39,73 +39,48 @@
 
 <body>
 <!-- carrusel -->
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-  
-    <div class="carousel-item active">
-      <video class="d-block w-100" src="./video-slide01.mp4" alt="primer slide" autoplay="true" muted="true" loop="false">
-      
-    </div>
-    <div class="carousel-item">
-      <video class="d-block w-100" src="./video-slide02.mp4" alt="segundo slide" autoplay="true" muted="true" loop="false">
-   
-    </div>
-    <div class="carousel-item">
-      <video class="d-block w-100" src="./video-slide03.mp4" alt="tercer slide" autoplay="true" muted="true" loop="false">
-
-    </div>
+<div class="video_fondo">
+  <video src="./img/video-fondo01.mp4" autoplay="true" loop="true">asdfasdf</video>
+  <div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previo</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Siguiente</span>
-  </a>
-</div>
-
-<div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
-
 
 <!-- quienes somos-->
-  <div class="container px-1 py-5">
-    <div class="about"></div>
+  <div class="container pt-9 px-5 py-9">
+    <div class="about" id="about"></div>
     <h1 id="quienes-somos">¿Quienes somos?</h1>
-    <p class="text-muted">Somos una empresa digital dedicada a potenciar el vínculo entre las organizaciones y sus clientes mediante el desarrollo de software y la automatización. Nuestro enfoque se basa en la utilización de las mejores herramientas tecnológicas y en contar con un equipo técnico altamente especializado. Trabajamos siguiendo metodologías ágiles, lo que nos permite ofrecer un servicio oportuno y eficiente a nuestros clientes.</p>
+    <p id="">Somos una empresa digital dedicada a potenciar el vínculo entre las organizaciones y sus clientes mediante el desarrollo de software y la automatización. Nuestro enfoque se basa en la utilización de las mejores herramientas tecnológicas y en contar con un equipo técnico altamente especializado. Trabajamos siguiendo metodologías ágiles, lo que nos permite ofrecer un servicio oportuno y eficiente a nuestros clientes.</p>
   </div>
 
 <!-- nuestros principios-->
-  <div class="container px-1 py-2" id="custom-cards">
+  <div class="container px-3 py-5" id="custom-cards">
+    <div class="nuestros_servicios">
+
     <h1 class="pb-2 border-bottom" >Nuestros principios</h1>
 
-    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-2">
-      <div class="col" id="principio01">
-        <div class="card card-cover h-100% overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('calidad.jpg')" data-aos="fade-down-left" data-aos-duration="1500">
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-white " >
-            <h3 class="pt-5 mt-5 mb-1 display-6 lh-1 fw-bold text-shadow-10" >Calidad del servicio</h3>
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-2 py-2">
+      <div class="col" id="principio02">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./img/tecleando01-gif.gif');" data-aos="fade-down" data-aos-duration="1500">
+          <div class="d-flex flex-column h-100 p-5 pb-3 text-white ">
+            <h3 class="pt-5 mt-5 mb-1 display-6 lh-1 fw-bold" backg>Calidad</h3>
+           
           </div>
         </div>
       </div>
 
+
       <div class="col" id="principio02">
-        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('agilismo.png');" data-aos="fade-down" data-aos-duration="3000">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./img/innovation01-gif.gif');" data-aos="fade-down" data-aos-duration="1500">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white ">
-            <h3 class="pt-5 mt-5 mb-1 display-6 lh-1 fw-bold">Agilismo</h3>
+            <h3 class="pt-5 mt-5 mb-1 display-6 lh-1 fw-bold">Innovacion</h3>
            
           </div>
         </div>
       </div>
 
       <div class="col" id="principio03">
-        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('innovacion.png');" data-aos="fade-down-right" data-aos-duration="6000">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./img/agilismo01-gif.gif');" data-aos="fade-down-right" data-aos-duration="6000">
           <div class="d-flex flex-column h-100 p-5 pb-3 ">
-            <h3 class="pt-5 mt-5 mb-1 display-6 lh-1 fw-bold">Innovacion</h3>
+            <h3 class="pt-5 mt-5 mb-1 display-6 lh-1 fw-bold">Agilismo</h3>
            
           </div>
         </div>
@@ -113,74 +88,67 @@
     </div>
   </div>
 </div>
+</div>
 
 <!-- nuestros servicios-->
   <div class="container px-4 py-5" id="hanging-icons">
-    <div class="servicios" id="servicios"></div>
-    <h1 class="pb-2 border-bottom text-center">Nuestros servicios</h1>
+    <div class="nuestros_servicios" id ="nuestros_servicios"></div>
+    <h1 class="pb-3 border-bottom text-center">Nuestros servicios</h1>
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
       
       <div class="marco">
       <div class="col d-flex align-items-start">
         
         <div>
-          <h3>Aplicaciones para captura y gestión de datos</h3>
-          <p>Mediante aplicaciones de dispositivos moviles capture informacion de pedidos, solicitudes o novedades de sus clientes para la pronta respuesta del servicio</p>
-          <a href="#" class="btn btn-primary">
+          <h4>Aplicaciones WEB para captura y gestión de datos</h4>
+          <p class="texto_servicios">Mediante aplicaciones de dispositivos moviles capture informacion de pedidos, solicitudes o novedades de sus clientes para la pronta respuesta del servicio</p>
+          <a href="#contactenos" class="btn btn-primary">
             Cotizar servicio
           </a>
         </div>
       </div>
     </div>
-
       <div class="col d-flex align-items-start">
-        
         <div>
-          <h3>Automatización de procesos de negocio</h3>
-          <p>Elimine tareas repetitivas, evite la operatividad y aumenta su eficiencia en el dia a dia</p>
-          <a href="#" class="btn btn-primary">
+          <h4>Automatización de procesos de negocio</h4>
+          <p class="texto_servicios">Elimine tareas repetitivas, evite la operatividad y aumenta su eficiencia en el día a día</p>
+          <a href="#contactenos" class="btn btn-primary">
            Cotizar servicio
           </a>
         </div>
       </div>
       <div class="col d-flex align-items-start">
-        
         <div>
-          <h3>Gestion de la informacion</h3>
-          <p>Empodere y desarrolle habilidades en sus trabajadores, con capacitacion permamente de las nuevas tecnologias</p>
-          <a href="#" class="btn btn-primary">
+          <h4>Gestión de la información</h4>
+          <p class="texto_servicios">Empodere y desarrolle habilidades en sus trabajadores, con capacitaciónes permamentes de las nuevas tecnologias</p>
+          <a href="#contactenos" class="btn btn-primary">
             Cotizar Servicio
           </a>
         </div>
       </div>
-    </div>
-    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
       <div class="col d-flex align-items-start ">
-        
         <div>
-          <h3>Desarrollo de aplicaciones WEB y escritorio</h3>
-          <p>Elimine el flujo de correo y los reportes de excel, desarrollemos juntos el software que gestiona sus clientes y sus necesidades internas</p>
-          <a href="#" class="btn btn-primary">
+          <h4>Desarrollo de aplicaciones WEB y escritorio</h4>
+          <p class="texto_servicios">Elimine el flujo de correo y los reportes de excel, desarrollemos juntos el software que gestiona sus clientes y sus necesidades internas</p>
+          <a href="#contactenos" class="btn btn-primary">
             Cotizar servicio
           </a>
         </div>
       </div>
       <div class="col d-flex align-items-start">
-        
         <div>
-          <h3 class="fs-2">Migracion de bases de datos</h3>
-          <p>Soportamos  con servicios como Amazon, Azure y Digital Ocean su base de datos en la nube, y elimine el costo de mantener servidores fisicos en las instalaciones de su empresa.</p>
-          <a href="#" class="btn btn-primary">
+          <h4>Migración de bases de datos</h4>
+          <p class="texto_servicios">Soportamos nuestros servicios con plataformas en la nube como Amazon, Azure y GoogleCloud, para la gestión de su base de datos en la nube, eliminando así sobrecostos de mantenimiento de servidores fisicos en su compañia.</p>
+          <a href="#contactenos" class="btn btn-primary">
             Cotizar servicio
           </a>
         </div>
       </div>
       <div class="col d-flex align-items-start">
-       
         <div>
-          <h3 >Diseño de portales Intranet</h3>
-          <p>Gestione la informacion de su dia a dia através de portales internos que faciliten la comunicacion entre sus trabajadores. Consulte, actualice y genere reportes de los expedientes de sus trabajadores y actividades de las procesos.</p>
-          <a href="#" class="btn btn-primary">
+          <h4 >Diseño de portales Intranet</h4>
+          <p class="texto_servicios">Gestione la informacion de su dia a dia através de portales internos que faciliten la comunicacion entre sus trabajadores. Consulte, actualice y genere reportes de los expedientes de sus trabajadores y actividades de las procesos.</p>
+          <a href="#contactenos" class="btn btn-primary">
             Cotizar servicio
           </a>
         </div>
@@ -195,7 +163,7 @@
     <div class="row align-items-center g-lg-5 py-2">
       <div class="col-lg-7 text-center text-lg-start" data-aos="fade-down-right" data-aos-duration="1500">
         <h1>Contacta un asesor</h1>
-        <h4>Agende una cita con alguno de nuestros asesores, comporta sus dudas y ampliemos el portafolio de servicios que tenemos para usted.</h4>
+        <h4>Agende una cita con alguno de nuestros asesores, cuentanos sobre tus necesidades y ampliemos el portafolio de servicios que tenemos para usted.</h4>
       </div>
       <div class="col-md-10 mx-auto col-lg-5">
         <form class="p-4 p-md-5 border rounded-4 bg-light"  data-aos="fade-down-left" data-aos-duration="1500">
@@ -210,7 +178,7 @@
             <label for="InputEmail">Correo electronico</label>
           </div>
 
-          <div class="form-floatingmsg mb-3">
+          <div class="form-floatingmsg mb-6 y-3">
             <input type="text" class="form-control" id="floatingmsg" placeholder="Dejanos tu mensaje">
             
           </div>
@@ -235,19 +203,15 @@
 <footer class="py-3 my-4">
   <ul class="nav justify-content-center border-bottom pb-3 mb-3">
     <li class="nav-item"><a href="#" class="nav-link px-50 text-muted">Home</a></li>
-    <li class="nav-item"><a href="#" class="nav-link px-50 text-muted">Servicios</a></li>
-    <li class="nav-item"><a href="#" class="nav-link px-50 text-muted">Escribenos</a></li>
-    <li class="nav-item"><a href="#" class="nav-link px-50 text-muted">Politica de datos</a></li>
+    <li class="nav-item"><a href="#nuestros_servicios" class="nav-link px-50 text-muted">Servicios</a></li>
+    <li class="nav-item"><a href="#contactenos" class="nav-link px-50 text-muted">Escribenos</a></li>
+
   </ul>
-  <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><img src="linkedin-icono.png" id="iconos-footer" height=30px  width=30px    ></a></li>
-    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><img src="twitter-icono.png" id="iconos-footer" height=30px  width=30px    ></a></li>
-    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><img src="facebook-icono.png" id="iconos-footer" height=30px  width=30px    ></a></li>
-  </ul>
+
  
 
-  <P class="text-center text-muted">El Poblado, Cra. 43A # 2a Sur 32, Medellín, Antioquia <br>
-    Celular:3233275155 <br> Correo:    servicioalcliente@sophimatica.co</P>
+  <P class="text-center text-muted">El Poblado, WeWork, Calle 7 Sur # 42-33, Medellín, Antioquia <br>
+    Celular : 3233275155 <br>servicioalcliente@sophimatica.co</P>
     <p class="text-center text-muted">2023 SOPHIMATICA</p>
 </footer>
 

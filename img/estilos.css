@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+.nav {
+    font-family:roboto;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    background-color: transparent;
+
+  }
+  
+  .nav * {
+    box-sizing: border-box;
+    transition: all .35s ease;
+  }
+  
+  .nav li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: .5em 1em;
+    padding: 0;
+  }
+  
+  .nav a {
+    padding: .5em .8em;
+    color:#02029f; 
+    position: relative;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .nav a::before,
+  .nav a::after {
+    content: '';
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    transition: all .35s ease;
+    opacity: 0;
+  }
+  
+  .nav a::before {
+    content: '';
+    right: 0;
+    top: 0;
+    border-top: 3px solid #ffc90e;
+    border-right: 3px solid #02029f;
+    transform: translate(-100%, 50%);
+  }
+  
+  .nav a:after {
+    content: '';
+    left: 0;
+    bottom: 0;
+    border-bottom: 3px solid #02029f;
+    border-left: 3px solid #ffc90e;
+    transform: translate(100%, -50%)
+  }
+  
+  .nav a:hover:before,
+  .nav a:hover:after{
+    transform: translate(0,0);
+    opacity: 1;
+  }
+  
+  .nav a:hover {
+    color: #02029f;
+  }
+
+.carousel-inner{
+height:200px;
+}
+
+.container {
+    font-family:roboto;
+  }
+  
+.console-container {
+    font-family:roboto;
+    font-size:4em;
+    text-align:center;
+    height:200px;
+    width:600px;
+    display:block;
+    position:absolute;
+    color:white;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+  }
+  .console-underscore {
+     display:inline-block;
+    position:relative;
+    top:-0.14em;
+    left:10px;
+  }
+
+  h1 , h2{
+    color:#02029f;
+    text-align: center;
+  }
+  
+
+ #principio01,#principio02,#principio03{
+    text-align: center;
+    text-shadow: 3px 6px 3px black; 
+  }
+
+.btn{
+    background-color:#02029f !important;
+  }
+
+.ubicacion{
+margin: 30px;
+    padding: 15px;
+  }
+
+#floatingmsg{
+height: 200px;
+  }
+
+  video{
+    position:relative;
+  }
+
+  #card-01{
+    position:absolute;
+    height: 10px;
+  }
